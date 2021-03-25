@@ -66,4 +66,4 @@ def plot(datasets, classes):
 if __name__ == '__main__':
     datasets = np.loadtxt('./datasets.txt', dtype=float, delimiter=',')  # 读入csv文件
     classes = DBSCAN(datasets, 0.11, 5)
-    plot(datasets, classes,)
+    plot(datasets, classes)
